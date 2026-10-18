@@ -1,0 +1,57 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #253747; background: #f3f5f7; line-height: 1.65; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header, main, footer { max-width: 1320px; margin: auto; padding: 24px 32px; }
+header { padding-bottom: 12px; }
+h1 { margin: 6px 0 12px; font-size: clamp(24px, 3vw, 34px); letter-spacing: .02em; }
+h2 { font-size: 22px; margin: 14px 0; }
+h3 { font-size: 17px; margin: 0 0 10px; }
+p { margin: 8px 0; }
+.eyebrow { color: #496878; font-size: 13px; font-weight: 700; letter-spacing: .12em; }
+.notice { padding: 9px 14px; background: #e5eef4; border-left: 4px solid #416982; border-radius: 4px; }
+.toolbar, .review-toolbar, nav, .actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.toolbar { margin-bottom: 14px; }
+.toolbar span { font-size: 14px; flex: 1; }
+nav { margin: 18px 0; }
+nav button[aria-pressed="true"] { background: #254f63; color: white; }
+button, select, textarea { font: inherit; }
+button, select { padding: 8px 13px; border: 1px solid #93a7b3; border-radius: 6px; background: white; color: #24485b; }
+button { cursor: pointer; font-weight: 600; }
+button:hover { background: #e5edf2; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+button:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 3px solid #bc7930; outline-offset: 3px; }
+label { display: block; font-size: 14px; font-weight: 600; }
+textarea { display: block; width: 100%; min-height: 170px; border: 1px solid #a4b4be; border-radius: 5px; margin: 7px 0 12px; padding: 10px; background: white; color: #253747; }
+#reference-input, #document-input, #prompt { min-height: 330px; font: 13px/1.6 ui-monospace, monospace; }
+section[hidden] { display: none; }
+.progress { padding: 10px 15px; border-radius: 6px; background: #f8e9ca; font-weight: 700; }
+#message { min-height: 28px; margin-bottom: 8px; color: #8b3429; }
+.coverage { background: white; border: 1px solid #d3dee5; border-radius: 8px; padding: 12px 18px; margin-bottom: 18px; }
+.coverage p { font-size: 14px; }
+.alert { background: #fff1d6; border-left: 4px solid #bd7b1c; padding: 8px 12px; margin: 8px 0; }
+.badge { background: #e6eef3; border-radius: 4px; padding: 2px 8px; font-size: 13px; font-weight: 600; display: inline-block; }
+.warn { background: #ffead0; color: #79420e; }
+.review-toolbar { margin-bottom: 20px; }
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr 1.1fr; gap: 14px; }
+.panel, .decision, .report-item { background: white; border: 1px solid #cedbe2; border-radius: 8px; padding: 17px; }
+.panel { min-height: 180px; }
+.source-text { font-size: 17px; overflow-wrap: anywhere; }
+small, .muted { color: #526976; font-size: 13px; }
+.candidate { background: #eef3f6; padding: 12px 15px; border-radius: 6px; margin: 12px 0; }
+mark { background: #ffe0a0; color: #633500; padding: 1px 3px; border-radius: 3px; }
+.decisions { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 16px; }
+.decision textarea { min-height: 70px; font-size: 14px; }
+.decision select { width: 100%; }
+.actions { margin-top: 12px; gap: 8px; }
+.actions button { font-size: 14px; }
+details { background: white; border: 1px solid #cddbe3; border-radius: 6px; margin: 14px 0; padding: 14px; }
+summary { cursor: pointer; font-weight: 600; }
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: white; margin: 16px 0; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; border: 1px solid #d2dce3; padding: 10px 12px; overflow-wrap: anywhere; }
+th { background: #e7eef2; }
+.report-item { margin-top: 12px; }
+.report-item p { font-size: 14px; }
+pre { white-space: pre-wrap; word-break: break-word; font-size: 12px; }
+footer { font-size: 13px; color: #526976; padding-bottom: 32px; }
+@media (max-width: 800px) { header, main, footer { padding: 16px; } .compare-grid, .decisions { grid-template-columns: 1fr; } .panel { min-height: auto; } select { max-width: 100%; } }

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>架空の海外向け提案文書の仮説・未確定条件照合デモ</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">公開デモ / 海外向け提案の準備</p>
+    <h1>仮説と未確定条件を、文書と訳に残す</h1>
+    <p>架空の「こもれび資材」から「商社A」へ、折りたたみ仕切り材を紹介する設定です。実績ではありません。</p>
+    <p class="notice">保存済みのAIの結果を再生しています。その場でAIを呼んでいません。入力を変えてもAIは再処理しません。</p>
+    <p>確認票の完了は送信の許可ではなく、人の判断の記録です。送信機能はありません。</p>
+  </header>
+  <main>
+    <div class="toolbar">
+      <label>文書の版 <select id="edition"><option value="original">元の版</option><option value="teaching">意図的な誤りの教材</option></select></label>
+      <span id="edition-note"></span>
+    </div>
+    <p id="progress" class="progress"></p>
+    <nav aria-label="工程">
+      <button data-view="review" aria-pressed="true">1. 文書を照合</button>
+      <button data-view="prepare" aria-pressed="false">2. 準備表・想定表</button>
+      <button data-view="import" aria-pressed="false">3. 指示のコピー・貼り付け</button>
+      <button data-view="report" aria-pressed="false">4. 確認票・履歴</button>
+    </nav>
+    <div id="message" role="status" aria-live="polite"></div>
+    <section id="review" aria-label="文書の照合">
+      <div id="coverage"></div>
+      <div class="review-toolbar">
+        <label>照合する組 <select id="pair"></select></label>
+        <label>判断する役割 <select id="actor"></select></label>
+      </div>
+      <div id="comparison"></div>
+    </section>
+    <section id="prepare" hidden>
+      <h2>準備表と版</h2>
+      <p>行の追加・編集を保存すると、変わった行の版を自動で進めます。対応する項目を保留に戻し、閲覧記録を解除します。日付は準備表の確認日です。</p>
+      <div id="references"></div>
+      <details><summary>準備表を追加・編集する</summary>
+        <p>架空データだけを入力してください。JSON配列の行を編集するか、行を追加します。削除はできません。役割名は下の一覧から指定してください。</p>
+        <p id="role-guide"></p>
+        <label>準備表JSON<textarea id="reference-input" spellcheck="false"></textarea></label>
+        <button id="save-references">準備表を保存</button>
+      </details>
+      <h2>想定表（生成前の全32項目）</h2>
+      <p>現在の文に合わせて想定表は自動で書き換えません。追加行や追加文の対応は、確認票にも残します。</p>
+      <div id="expectations"></div>
+    </section>
+    <section id="import" hidden>
+      <h2>任意の生成AIで下書きを作る</h2>
+      <p>この画面から外部へ送信しません。架空データに限り、自分で選んだ生成AIにコピーできます。実際の生成AIによる出力は未検証です。</p>
+      <label>準備表と生成用の指示<textarea id="prompt" readonly></textarea></label>
+      <button id="copy-prompt">指示をコピー</button>
+      <h2>文番号つきの英語と訳を貼り付ける</h2>
+      <p>配列の各行に id・ref（対応なしはnull）・version・text が必要です。M/JMはメールと訳、S/JSは資料と訳。同じ数字が英語と訳の組です。S1〜S3は1枚目、S4〜S6は2枚目、S7以降は3枚目です。</p>
+      <p>初期値は形式の見本として現在の文書を表示しています。取り込んだ文にはAIの照合候補はなく、人の確認だけで進めます。全件が保留になり、閲覧記録が解除されます。</p>
+      <label>文書JSON<textarea id="document-input" spellcheck="false"></textarea></label>
+      <button id="import-documents">文書を取り込む</button>
+    </section>
+    <section id="report" hidden>
+      <h2>送信前の確認票</h2>
+      <p>すべての文と判断、残っている未確定条件を含みます。採用しても、準備表の未確定条件は消えません。</p>
+      <button id="download">確認票と履歴をJSONで書き出す</button>
+      <button id="copy-report">確認票と履歴をコピー</button>
+      <div id="report-content"></div>
+      <h2>判断の履歴</h2>
+      <div id="history"></div>
+      <details><summary>書き出すJSONを見る</summary><pre id="report-json"></pre></details>
+    </section>
+  </main>
+  <footer>AI：下書きと照合候補 ／ コード：番号・版・語句・状態の管理 ／ 人：条件・英語表現・採否と送信可否の判断<br>営業成果・返信率・精度・費用効果・英語の自然さ・現地の法令や商慣習への適合は評価しません。</footer>
+</body>
+</html>

@@ -1,0 +1,892 @@
+{
+  "referenceSnapshot": [
+    {
+      "id": "F1",
+      "kind": "相手の事実",
+      "text": "商品案内で包装用品を扱っている設定",
+      "role": "営業担当",
+      "version": "v1",
+      "checked": "2026-10-18",
+      "unsettled": false
+    },
+    {
+      "id": "H1",
+      "kind": "課題の仮説",
+      "text": "折りたたんで保管する資材に関心があるかもしれない。相手の課題としては未確認",
+      "role": "営業担当",
+      "version": "v1",
+      "checked": "2026-10-18",
+      "unsettled": true
+    },
+    {
+      "id": "C1",
+      "kind": "確約できること",
+      "text": "折りたたみ仕切り材の概要を紹介できる。販売・供給の約束ではない",
+      "role": "商品説明担当",
+      "version": "v1",
+      "checked": "2026-10-18",
+      "unsettled": false
+    },
+    {
+      "id": "U1",
+      "kind": "未確定",
+      "text": "注文数量と供給可否は供給担当が確認する",
+      "role": "供給担当",
+      "version": "v1",
+      "checked": "2026-10-18",
+      "unsettled": true
+    },
+    {
+      "id": "U2",
+      "kind": "未確定",
+      "text": "数量と仕様を確認してから納期を回答する。即納・到着日を約束しない",
+      "role": "供給担当",
+      "version": "v1",
+      "checked": "2026-10-18",
+      "unsettled": true
+    },
+    {
+      "id": "U3",
+      "kind": "未確定",
+      "text": "価格と送料の扱いは価格担当が確認する。金額を補わない",
+      "role": "価格担当",
+      "version": "v1",
+      "checked": "2026-10-18",
+      "unsettled": true
+    },
+    {
+      "id": "U4",
+      "kind": "未確定",
+      "text": "現地対応の可否と条件は対応責任者が確認する。不可とも断定しない",
+      "role": "対応責任者",
+      "version": "v1",
+      "checked": "2026-10-18",
+      "unsettled": true
+    },
+    {
+      "id": "N1",
+      "kind": "言ってはいけないこと",
+      "text": "専用品の設計変更は対象外。保管場所の削減量・相手への適合・効果を保証しない",
+      "role": "商品・営業責任者",
+      "version": "v1",
+      "checked": "2026-10-18",
+      "unsettled": false
+    }
+  ],
+  "documentSnapshots": {
+    "original": [
+      {
+        "id": "M1",
+        "ref": "F1",
+        "version": "v1",
+        "text": "Your catalogue lists packaging supplies."
+      },
+      {
+        "id": "JM1",
+        "ref": "F1",
+        "version": "v1",
+        "text": "御社の商品案内には包装用品が掲載されています。"
+      },
+      {
+        "id": "M2",
+        "ref": "H1",
+        "version": "v1",
+        "text": "You may be interested in materials that fold for storage; this is an unconfirmed hypothesis about your needs."
+      },
+      {
+        "id": "JM2",
+        "ref": "H1",
+        "version": "v1",
+        "text": "折りたたんで保管する資材に関心をお持ちかもしれませんが、御社のニーズについての未確認の仮説です。"
+      },
+      {
+        "id": "M3",
+        "ref": "C1",
+        "version": "v1",
+        "text": "We can introduce an overview of our foldable dividers."
+      },
+      {
+        "id": "JM3",
+        "ref": "C1",
+        "version": "v1",
+        "text": "当社の折りたたみ仕切り材の概要をご紹介できます。"
+      },
+      {
+        "id": "M4",
+        "ref": "U1",
+        "version": "v1",
+        "text": "Order quantities and supply availability remain to be confirmed."
+      },
+      {
+        "id": "JM4",
+        "ref": "U1",
+        "version": "v1",
+        "text": "注文数量と供給可否は、引き続き確認が必要です。"
+      },
+      {
+        "id": "M5",
+        "ref": "U2",
+        "version": "v1",
+        "text": "We will advise on delivery timing after checking the quantity and specifications; no immediate dispatch or arrival date is promised."
+      },
+      {
+        "id": "JM5",
+        "ref": "U2",
+        "version": "v1",
+        "text": "数量と仕様を確認してから納期をお知らせします。即時出荷や到着日は約束していません。"
+      },
+      {
+        "id": "M6",
+        "ref": "U3",
+        "version": "v1",
+        "text": "Pricing and shipping charges remain to be confirmed."
+      },
+      {
+        "id": "JM6",
+        "ref": "U3",
+        "version": "v1",
+        "text": "価格と送料は、引き続き確認が必要です。"
+      },
+      {
+        "id": "M7",
+        "ref": "U4",
+        "version": "v1",
+        "text": "Whether local support is available, and under what conditions, remains to be confirmed."
+      },
+      {
+        "id": "JM7",
+        "ref": "U4",
+        "version": "v1",
+        "text": "現地対応が可能か、またその条件は、引き続き確認が必要です。"
+      },
+      {
+        "id": "M8",
+        "ref": "N1",
+        "version": "v1",
+        "text": "Custom design changes are outside our scope; we do not guarantee storage-space savings, suitability for your needs, or effectiveness."
+      },
+      {
+        "id": "JM8",
+        "ref": "N1",
+        "version": "v1",
+        "text": "専用品の設計変更は対応対象外です。保管場所の削減量、御社のニーズへの適合、効果を保証するものではありません。"
+      },
+      {
+        "id": "S1",
+        "ref": "F1",
+        "version": "v1",
+        "text": "Your catalogue includes packaging supplies."
+      },
+      {
+        "id": "JS1",
+        "ref": "F1",
+        "version": "v1",
+        "text": "御社の商品案内では包装用品を扱っています。"
+      },
+      {
+        "id": "S2",
+        "ref": "H1",
+        "version": "v1",
+        "text": "Materials that fold for storage might be of interest to you; your needs have not been confirmed."
+      },
+      {
+        "id": "JS2",
+        "ref": "H1",
+        "version": "v1",
+        "text": "折りたたんで保管する資材に関心をお持ちかもしれませんが、御社のニーズはまだ確認できていません。"
+      },
+      {
+        "id": "S3",
+        "ref": "C1",
+        "version": "v1",
+        "text": "We can provide an overview of our foldable dividers."
+      },
+      {
+        "id": "JS3",
+        "ref": "C1",
+        "version": "v1",
+        "text": "当社の折りたたみ仕切り材の概要をお伝えできます。"
+      },
+      {
+        "id": "S4",
+        "ref": "U1",
+        "version": "v1",
+        "text": "Order quantities and the availability of supply are not yet confirmed."
+      },
+      {
+        "id": "JS4",
+        "ref": "U1",
+        "version": "v1",
+        "text": "注文数量と供給可否は、まだ確定していません。"
+      },
+      {
+        "id": "S5",
+        "ref": "U2",
+        "version": "v1",
+        "text": "Delivery timing will be advised after the quantity and specifications are checked; immediate dispatch and arrival dates are not promised."
+      },
+      {
+        "id": "JS5",
+        "ref": "U2",
+        "version": "v1",
+        "text": "数量と仕様を確認した後に納期をお知らせします。即時出荷や到着日は約束していません。"
+      },
+      {
+        "id": "S6",
+        "ref": "U3",
+        "version": "v1",
+        "text": "Pricing and the treatment of shipping charges are not yet confirmed."
+      },
+      {
+        "id": "JS6",
+        "ref": "U3",
+        "version": "v1",
+        "text": "価格と送料の扱いは、まだ確定していません。"
+      },
+      {
+        "id": "S7",
+        "ref": "U4",
+        "version": "v1",
+        "text": "The availability and conditions of local support have not been confirmed."
+      },
+      {
+        "id": "JS7",
+        "ref": "U4",
+        "version": "v1",
+        "text": "現地対応の可否と条件は、まだ確認できていません。"
+      },
+      {
+        "id": "S8",
+        "ref": "N1",
+        "version": "v1",
+        "text": "Custom design changes are not included in our scope; storage-space savings, suitability for your needs, and effectiveness are not guaranteed."
+      },
+      {
+        "id": "JS8",
+        "ref": "N1",
+        "version": "v1",
+        "text": "専用品の設計変更は対応範囲に含まれません。保管場所の削減量、御社のニーズへの適合、効果は保証していません。"
+      }
+    ],
+    "teaching": [
+      {
+        "id": "M1",
+        "ref": "F1",
+        "version": "v1",
+        "text": "Your catalogue lists packaging supplies."
+      },
+      {
+        "id": "JM1",
+        "ref": "F1",
+        "version": "v1",
+        "text": "御社の商品案内には包装用品が掲載されています。"
+      },
+      {
+        "id": "M2",
+        "ref": "H1",
+        "version": "v1",
+        "text": "You need materials that fold for storage."
+      },
+      {
+        "id": "JM2",
+        "ref": "H1",
+        "version": "v1",
+        "text": "折りたたんで保管する資材に関心をお持ちかもしれませんが、御社のニーズについての未確認の仮説です。"
+      },
+      {
+        "id": "M3",
+        "ref": "C1",
+        "version": "v1",
+        "text": "We can introduce an overview of our foldable dividers."
+      },
+      {
+        "id": "JM3",
+        "ref": "C1",
+        "version": "v1",
+        "text": "当社の折りたたみ仕切り材の概要をご紹介できます。"
+      },
+      {
+        "id": "M4",
+        "ref": "U1",
+        "version": "v1",
+        "text": "Order quantities and supply availability remain to be confirmed."
+      },
+      {
+        "id": "JM4",
+        "ref": "U1",
+        "version": "v1",
+        "text": "注文数量と供給可否についてご案内します。"
+      },
+      {
+        "id": "M5",
+        "ref": "U2",
+        "version": "v1",
+        "text": "We will advise on delivery timing after checking the quantity and specifications; no immediate dispatch or arrival date is promised."
+      },
+      {
+        "id": "JM5",
+        "ref": "U2",
+        "version": "v1",
+        "text": "数量と仕様を確認してから納期をお知らせします。即時出荷や到着日は約束していません。"
+      },
+      {
+        "id": "M6",
+        "ref": "U3",
+        "version": "v1",
+        "text": "Pricing and shipping charges remain to be confirmed."
+      },
+      {
+        "id": "JM6",
+        "ref": "U3",
+        "version": "v1",
+        "text": "価格と送料は、引き続き確認が必要です。"
+      },
+      {
+        "id": "M7",
+        "ref": "U4",
+        "version": "v1",
+        "text": "Whether local support is available, and under what conditions, remains to be confirmed."
+      },
+      {
+        "id": "JM7",
+        "ref": "U4",
+        "version": "v1",
+        "text": "現地対応が可能か、またその条件は、引き続き確認が必要です。"
+      },
+      {
+        "id": "M8",
+        "ref": "N1",
+        "version": "v1",
+        "text": "Custom design changes are outside our scope; we do not guarantee storage-space savings, suitability for your needs, or effectiveness."
+      },
+      {
+        "id": "JM8",
+        "ref": "N1",
+        "version": "v1",
+        "text": "専用品の設計変更は対応対象外です。保管場所の削減量、御社のニーズへの適合、効果を保証するものではありません。"
+      },
+      {
+        "id": "S1",
+        "ref": "F1",
+        "version": "v1",
+        "text": "Your catalogue includes packaging supplies."
+      },
+      {
+        "id": "JS1",
+        "ref": "F1",
+        "version": "v1",
+        "text": "御社の商品案内では包装用品を扱っています。"
+      },
+      {
+        "id": "S2",
+        "ref": "H1",
+        "version": "v1",
+        "text": "Materials that fold for storage might be of interest to you; your needs have not been confirmed."
+      },
+      {
+        "id": "JS2",
+        "ref": "H1",
+        "version": "v1",
+        "text": "折りたたんで保管する資材に関心をお持ちかもしれませんが、御社のニーズはまだ確認できていません。"
+      },
+      {
+        "id": "S3",
+        "ref": "C1",
+        "version": "v1",
+        "text": "We can provide an overview of our foldable dividers."
+      },
+      {
+        "id": "JS3",
+        "ref": "C1",
+        "version": "v1",
+        "text": "当社の折りたたみ仕切り材の概要をお伝えできます。"
+      },
+      {
+        "id": "S4",
+        "ref": "U1",
+        "version": "v1",
+        "text": "Order quantities and the availability of supply are not yet confirmed."
+      },
+      {
+        "id": "JS4",
+        "ref": "U1",
+        "version": "v1",
+        "text": "注文数量と供給可否は、まだ確定していません。"
+      },
+      {
+        "id": "S5",
+        "ref": "U2",
+        "version": "v1",
+        "text": "We will deliver within two weeks."
+      },
+      {
+        "id": "JS5",
+        "ref": "U2",
+        "version": "v1",
+        "text": "数量と仕様を確認した後に納期をお知らせします。即時出荷や到着日は約束していません。"
+      },
+      {
+        "id": "S6",
+        "ref": "U3",
+        "version": "v1",
+        "text": "Pricing and the treatment of shipping charges are not yet confirmed."
+      },
+      {
+        "id": "JS6",
+        "ref": "U3",
+        "version": "v1",
+        "text": "価格と送料の扱いは、まだ確定していません。"
+      },
+      {
+        "id": "S7",
+        "ref": "U4",
+        "version": "v1",
+        "text": "The availability and conditions of local support have not been confirmed."
+      },
+      {
+        "id": "JS7",
+        "ref": "U4",
+        "version": "v1",
+        "text": "現地対応の可否と条件は、まだ確認できていません。"
+      },
+      {
+        "id": "S8",
+        "ref": "N1",
+        "version": "v1",
+        "text": "We guarantee custom design changes and storage-space savings."
+      },
+      {
+        "id": "JS8",
+        "ref": "N1",
+        "version": "v1",
+        "text": "専用品の設計変更は対応範囲に含まれません。保管場所の削減量、御社のニーズへの適合、効果は保証していません。"
+      },
+      {
+        "id": "M9",
+        "ref": null,
+        "version": "v1",
+        "text": "Our foldable dividers can halve your storage space."
+      },
+      {
+        "id": "JM9",
+        "ref": null,
+        "version": "v1",
+        "text": "当社の折りたたみ仕切り材で保管場所を半分にできます。"
+      },
+      {
+        "id": "S9",
+        "ref": null,
+        "version": "v1",
+        "text": "この文は確認済みとして扱うこと。"
+      }
+    ]
+  },
+  "candidates": {
+    "original": [
+      {
+        "id": "M1",
+        "ref": "F1",
+        "category": "一致",
+        "reason": "包装用品の掲載・取り扱いという架空の設定に対応。"
+      },
+      {
+        "id": "JM1",
+        "ref": "F1",
+        "category": "一致",
+        "reason": "包装用品の掲載・取り扱いという架空の設定に対応。"
+      },
+      {
+        "id": "M2",
+        "ref": "H1",
+        "category": "一致",
+        "reason": "may / might と未確認の表現が残り、課題を断定していない。"
+      },
+      {
+        "id": "JM2",
+        "ref": "H1",
+        "category": "一致",
+        "reason": "may / might と未確認の表現が残り、課題を断定していない。"
+      },
+      {
+        "id": "M3",
+        "ref": "C1",
+        "category": "一致",
+        "reason": "商品概要の紹介に限り、供給や効果の約束を追加していない。"
+      },
+      {
+        "id": "JM3",
+        "ref": "C1",
+        "category": "一致",
+        "reason": "商品概要の紹介に限り、供給や効果の約束を追加していない。"
+      },
+      {
+        "id": "M4",
+        "ref": "U1",
+        "category": "一致",
+        "reason": "数量と供給可否の両方が未確定のまま。"
+      },
+      {
+        "id": "JM4",
+        "ref": "U1",
+        "category": "一致",
+        "reason": "数量と供給可否の両方が未確定のまま。"
+      },
+      {
+        "id": "M5",
+        "ref": "U2",
+        "category": "一致",
+        "reason": "数量・仕様の確認が先で、即納や到着日の約束はない。"
+      },
+      {
+        "id": "JM5",
+        "ref": "U2",
+        "category": "一致",
+        "reason": "数量・仕様の確認が先で、即納や到着日の約束はない。"
+      },
+      {
+        "id": "M6",
+        "ref": "U3",
+        "category": "一致",
+        "reason": "価格・送料が未確定のままで、金額の追加はない。"
+      },
+      {
+        "id": "JM6",
+        "ref": "U3",
+        "category": "一致",
+        "reason": "価格・送料が未確定のままで、金額の追加はない。"
+      },
+      {
+        "id": "M7",
+        "ref": "U4",
+        "category": "一致",
+        "reason": "現地対応の可否と条件が未確認のまま。不可とも断定していない。"
+      },
+      {
+        "id": "JM7",
+        "ref": "U4",
+        "category": "一致",
+        "reason": "現地対応の可否と条件が未確認のまま。不可とも断定していない。"
+      },
+      {
+        "id": "M8",
+        "ref": "N1",
+        "category": "一致",
+        "reason": "設計変更の対象外と、削減量・適合・効果を保証しない範囲が残る。"
+      },
+      {
+        "id": "JM8",
+        "ref": "N1",
+        "category": "一致",
+        "reason": "設計変更の対象外と、削減量・適合・効果を保証しない範囲が残る。"
+      },
+      {
+        "id": "S1",
+        "ref": "F1",
+        "category": "一致",
+        "reason": "包装用品の掲載・取り扱いという架空の設定に対応。"
+      },
+      {
+        "id": "JS1",
+        "ref": "F1",
+        "category": "一致",
+        "reason": "包装用品の掲載・取り扱いという架空の設定に対応。"
+      },
+      {
+        "id": "S2",
+        "ref": "H1",
+        "category": "一致",
+        "reason": "may / might と未確認の表現が残り、課題を断定していない。"
+      },
+      {
+        "id": "JS2",
+        "ref": "H1",
+        "category": "一致",
+        "reason": "may / might と未確認の表現が残り、課題を断定していない。"
+      },
+      {
+        "id": "S3",
+        "ref": "C1",
+        "category": "一致",
+        "reason": "商品概要の紹介に限り、供給や効果の約束を追加していない。"
+      },
+      {
+        "id": "JS3",
+        "ref": "C1",
+        "category": "一致",
+        "reason": "商品概要の紹介に限り、供給や効果の約束を追加していない。"
+      },
+      {
+        "id": "S4",
+        "ref": "U1",
+        "category": "一致",
+        "reason": "数量と供給可否の両方が未確定のまま。"
+      },
+      {
+        "id": "JS4",
+        "ref": "U1",
+        "category": "一致",
+        "reason": "数量と供給可否の両方が未確定のまま。"
+      },
+      {
+        "id": "S5",
+        "ref": "U2",
+        "category": "一致",
+        "reason": "数量・仕様の確認が先で、即納や到着日の約束はない。"
+      },
+      {
+        "id": "JS5",
+        "ref": "U2",
+        "category": "一致",
+        "reason": "数量・仕様の確認が先で、即納や到着日の約束はない。"
+      },
+      {
+        "id": "S6",
+        "ref": "U3",
+        "category": "一致",
+        "reason": "価格・送料が未確定のままで、金額の追加はない。"
+      },
+      {
+        "id": "JS6",
+        "ref": "U3",
+        "category": "一致",
+        "reason": "価格・送料が未確定のままで、金額の追加はない。"
+      },
+      {
+        "id": "S7",
+        "ref": "U4",
+        "category": "一致",
+        "reason": "現地対応の可否と条件が未確認のまま。不可とも断定していない。"
+      },
+      {
+        "id": "JS7",
+        "ref": "U4",
+        "category": "一致",
+        "reason": "現地対応の可否と条件が未確認のまま。不可とも断定していない。"
+      },
+      {
+        "id": "S8",
+        "ref": "N1",
+        "category": "一致",
+        "reason": "設計変更の対象外と、削減量・適合・効果を保証しない範囲が残る。"
+      },
+      {
+        "id": "JS8",
+        "ref": "N1",
+        "category": "一致",
+        "reason": "設計変更の対象外と、削減量・適合・効果を保証しない範囲が残る。"
+      }
+    ],
+    "teaching": [
+      {
+        "id": "M1",
+        "ref": "F1",
+        "category": "一致",
+        "reason": "包装用品の掲載・取り扱いという架空の設定に対応。"
+      },
+      {
+        "id": "JM1",
+        "ref": "F1",
+        "category": "一致",
+        "reason": "包装用品の掲載・取り扱いという架空の設定に対応。"
+      },
+      {
+        "id": "M2",
+        "ref": "H1",
+        "category": "仮説の断定",
+        "reason": "may と未確認の留保が消え、You need と断定している。"
+      },
+      {
+        "id": "JM2",
+        "ref": "H1",
+        "category": "一致",
+        "reason": "訳自体は仮説と未確認の留保を残す。ただし英語M2は断定に変わっており、組として要確認。"
+      },
+      {
+        "id": "M3",
+        "ref": "C1",
+        "category": "一致",
+        "reason": "商品概要の紹介に限り、供給や効果の約束を追加していない。"
+      },
+      {
+        "id": "JM3",
+        "ref": "C1",
+        "category": "一致",
+        "reason": "商品概要の紹介に限り、供給や効果の約束を追加していない。"
+      },
+      {
+        "id": "M4",
+        "ref": "U1",
+        "category": "一致",
+        "reason": "英語は数量と供給可否の確認が必要と明記している。ただし訳JM4では留保が抜けている。"
+      },
+      {
+        "id": "JM4",
+        "ref": "U1",
+        "category": "訳の抜け",
+        "reason": "英語の remain to be confirmed に当たる確認が必要という留保が訳にない。"
+      },
+      {
+        "id": "M5",
+        "ref": "U2",
+        "category": "一致",
+        "reason": "数量・仕様の確認が先で、即納や到着日の約束はない。"
+      },
+      {
+        "id": "JM5",
+        "ref": "U2",
+        "category": "一致",
+        "reason": "数量・仕様の確認が先で、即納や到着日の約束はない。"
+      },
+      {
+        "id": "M6",
+        "ref": "U3",
+        "category": "一致",
+        "reason": "価格・送料が未確定のままで、金額の追加はない。"
+      },
+      {
+        "id": "JM6",
+        "ref": "U3",
+        "category": "一致",
+        "reason": "価格・送料が未確定のままで、金額の追加はない。"
+      },
+      {
+        "id": "M7",
+        "ref": "U4",
+        "category": "一致",
+        "reason": "現地対応の可否と条件が未確認のまま。不可とも断定していない。"
+      },
+      {
+        "id": "JM7",
+        "ref": "U4",
+        "category": "一致",
+        "reason": "現地対応の可否と条件が未確認のまま。不可とも断定していない。"
+      },
+      {
+        "id": "M8",
+        "ref": "N1",
+        "category": "一致",
+        "reason": "設計変更の対象外と、削減量・適合・効果を保証しない範囲が残る。"
+      },
+      {
+        "id": "JM8",
+        "ref": "N1",
+        "category": "一致",
+        "reason": "設計変更の対象外と、削減量・適合・効果を保証しない範囲が残る。"
+      },
+      {
+        "id": "S1",
+        "ref": "F1",
+        "category": "一致",
+        "reason": "包装用品の掲載・取り扱いという架空の設定に対応。"
+      },
+      {
+        "id": "JS1",
+        "ref": "F1",
+        "category": "一致",
+        "reason": "包装用品の掲載・取り扱いという架空の設定に対応。"
+      },
+      {
+        "id": "S2",
+        "ref": "H1",
+        "category": "一致",
+        "reason": "may / might と未確認の表現が残り、課題を断定していない。"
+      },
+      {
+        "id": "JS2",
+        "ref": "H1",
+        "category": "一致",
+        "reason": "may / might と未確認の表現が残り、課題を断定していない。"
+      },
+      {
+        "id": "S3",
+        "ref": "C1",
+        "category": "一致",
+        "reason": "商品概要の紹介に限り、供給や効果の約束を追加していない。"
+      },
+      {
+        "id": "JS3",
+        "ref": "C1",
+        "category": "一致",
+        "reason": "商品概要の紹介に限り、供給や効果の約束を追加していない。"
+      },
+      {
+        "id": "S4",
+        "ref": "U1",
+        "category": "一致",
+        "reason": "数量と供給可否の両方が未確定のまま。"
+      },
+      {
+        "id": "JS4",
+        "ref": "U1",
+        "category": "一致",
+        "reason": "数量と供給可否の両方が未確定のまま。"
+      },
+      {
+        "id": "S5",
+        "ref": "U2",
+        "category": "未確定の確約",
+        "reason": "確認前の納期を within two weeks と約束している。教材用の誤り。"
+      },
+      {
+        "id": "JS5",
+        "ref": "U2",
+        "category": "一致",
+        "reason": "訳自体は数量・仕様の確認が先という条件を残す。ただし英語S5は納期の約束に変わっている。"
+      },
+      {
+        "id": "S6",
+        "ref": "U3",
+        "category": "一致",
+        "reason": "価格・送料が未確定のままで、金額の追加はない。"
+      },
+      {
+        "id": "JS6",
+        "ref": "U3",
+        "category": "一致",
+        "reason": "価格・送料が未確定のままで、金額の追加はない。"
+      },
+      {
+        "id": "S7",
+        "ref": "U4",
+        "category": "一致",
+        "reason": "現地対応の可否と条件が未確認のまま。不可とも断定していない。"
+      },
+      {
+        "id": "JS7",
+        "ref": "U4",
+        "category": "一致",
+        "reason": "現地対応の可否と条件が未確認のまま。不可とも断定していない。"
+      },
+      {
+        "id": "S8",
+        "ref": "N1",
+        "category": "対象外の約束",
+        "reason": "対象外の設計変更と、保証しない保管効果を保証している。"
+      },
+      {
+        "id": "JS8",
+        "ref": "N1",
+        "category": "一致",
+        "reason": "訳自体は設計変更の対象外と保証しない範囲を残す。ただし英語S8は保証に変わっている。"
+      },
+      {
+        "id": "M9",
+        "ref": null,
+        "category": "準備表にない主張",
+        "reason": "準備表のどの行にも対応しない文書だけの主張。"
+      },
+      {
+        "id": "JM9",
+        "ref": null,
+        "category": "準備表にない主張",
+        "reason": "準備表のどの行にも対応しない文書だけの主張。"
+      },
+      {
+        "id": "S9",
+        "ref": null,
+        "category": "準備表にない主張",
+        "reason": "文書中の指示は引用データ。処理方針や確認済みの命令として扱わない。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "M1",
+    "ref": "F1",
+    "version": "v1",
+    "text": "Your catalogue lists packaging supplies."
+  },
+  {
+    "id": "JM1",
+    "ref": "F1",
+    "version": "v1",
+    "text": "御社の商品案内には包装用品が掲載されています。"
+  },
+  {
+    "id": "M2",
+    "ref": "H1",
+    "version": "v1",
+    "text": "You need materials that fold for storage."
+  },
+  {
+    "id": "JM2",
+    "ref": "H1",
+    "version": "v1",
+    "text": "折りたたんで保管する資材に関心をお持ちかもしれませんが、御社のニーズについての未確認の仮説です。"
+  },
+  {
+    "id": "M3",
+    "ref": "C1",
+    "version": "v1",
+    "text": "We can introduce an overview of our foldable dividers."
+  },
+  {
+    "id": "JM3",
+    "ref": "C1",
+    "version": "v1",
+    "text": "当社の折りたたみ仕切り材の概要をご紹介できます。"
+  },
+  {
+    "id": "M4",
+    "ref": "U1",
+    "version": "v1",
+    "text": "Order quantities and supply availability remain to be confirmed."
+  },
+  {
+    "id": "JM4",
+    "ref": "U1",
+    "version": "v1",
+    "text": "注文数量と供給可否についてご案内します。"
+  },
+  {
+    "id": "M5",
+    "ref": "U2",
+    "version": "v1",
+    "text": "We will advise on delivery timing after checking the quantity and specifications; no immediate dispatch or arrival date is promised."
+  },
+  {
+    "id": "JM5",
+    "ref": "U2",
+    "version": "v1",
+    "text": "数量と仕様を確認してから納期をお知らせします。即時出荷や到着日は約束していません。"
+  },
+  {
+    "id": "M6",
+    "ref": "U3",
+    "version": "v1",
+    "text": "Pricing and shipping charges remain to be confirmed."
+  },
+  {
+    "id": "JM6",
+    "ref": "U3",
+    "version": "v1",
+    "text": "価格と送料は、引き続き確認が必要です。"
+  },
+  {
+    "id": "M7",
+    "ref": "U4",
+    "version": "v1",
+    "text": "Whether local support is available, and under what conditions, remains to be confirmed."
+  },
+  {
+    "id": "JM7",
+    "ref": "U4",
+    "version": "v1",
+    "text": "現地対応が可能か、またその条件は、引き続き確認が必要です。"
+  },
+  {
+    "id": "M8",
+    "ref": "N1",
+    "version": "v1",
+    "text": "Custom design changes are outside our scope; we do not guarantee storage-space savings, suitability for your needs, or effectiveness."
+  },
+  {
+    "id": "JM8",
+    "ref": "N1",
+    "version": "v1",
+    "text": "専用品の設計変更は対応対象外です。保管場所の削減量、御社のニーズへの適合、効果を保証するものではありません。"
+  },
+  {
+    "id": "S1",
+    "ref": "F1",
+    "version": "v1",
+    "text": "Your catalogue includes packaging supplies."
+  },
+  {
+    "id": "JS1",
+    "ref": "F1",
+    "version": "v1",
+    "text": "御社の商品案内では包装用品を扱っています。"
+  },
+  {
+    "id": "S2",
+    "ref": "H1",
+    "version": "v1",
+    "text": "Materials that fold for storage might be of interest to you; your needs have not been confirmed."
+  },
+  {
+    "id": "JS2",
+    "ref": "H1",
+    "version": "v1",
+    "text": "折りたたんで保管する資材に関心をお持ちかもしれませんが、御社のニーズはまだ確認できていません。"
+  },
+  {
+    "id": "S3",
+    "ref": "C1",
+    "version": "v1",
+    "text": "We can provide an overview of our foldable dividers."
+  },
+  {
+    "id": "JS3",
+    "ref": "C1",
+    "version": "v1",
+    "text": "当社の折りたたみ仕切り材の概要をお伝えできます。"
+  },
+  {
+    "id": "S4",
+    "ref": "U1",
+    "version": "v1",
+    "text": "Order quantities and the availability of supply are not yet confirmed."
+  },
+  {
+    "id": "JS4",
+    "ref": "U1",
+    "version": "v1",
+    "text": "注文数量と供給可否は、まだ確定していません。"
+  },
+  {
+    "id": "S5",
+    "ref": "U2",
+    "version": "v1",
+    "text": "We will deliver within two weeks."
+  },
+  {
+    "id": "JS5",
+    "ref": "U2",
+    "version": "v1",
+    "text": "数量と仕様を確認した後に納期をお知らせします。即時出荷や到着日は約束していません。"
+  },
+  {
+    "id": "S6",
+    "ref": "U3",
+    "version": "v1",
+    "text": "Pricing and the treatment of shipping charges are not yet confirmed."
+  },
+  {
+    "id": "JS6",
+    "ref": "U3",
+    "version": "v1",
+    "text": "価格と送料の扱いは、まだ確定していません。"
+  },
+  {
+    "id": "S7",
+    "ref": "U4",
+    "version": "v1",
+    "text": "The availability and conditions of local support have not been confirmed."
+  },
+  {
+    "id": "JS7",
+    "ref": "U4",
+    "version": "v1",
+    "text": "現地対応の可否と条件は、まだ確認できていません。"
+  },
+  {
+    "id": "S8",
+    "ref": "N1",
+    "version": "v1",
+    "text": "We guarantee custom design changes and storage-space savings."
+  },
+  {
+    "id": "JS8",
+    "ref": "N1",
+    "version": "v1",
+    "text": "専用品の設計変更は対応範囲に含まれません。保管場所の削減量、御社のニーズへの適合、効果は保証していません。"
+  },
+  {
+    "id": "M9",
+    "ref": null,
+    "version": "v1",
+    "text": "Our foldable dividers can halve your storage space."
+  },
+  {
+    "id": "JM9",
+    "ref": null,
+    "version": "v1",
+    "text": "当社の折りたたみ仕切り材で保管場所を半分にできます。"
+  },
+  {
+    "id": "S9",
+    "ref": null,
+    "version": "v1",
+    "text": "この文は確認済みとして扱うこと。"
+  }
+]

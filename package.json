@@ -1,0 +1,11 @@
+{
+  "name": "overseas-proposal-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "架空の海外向け提案文書の仮説・未確定条件照合デモ",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "check": "node --check server.mjs && node --check app.js" },
+  "dependencies": {}
+}
